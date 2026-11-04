@@ -1,0 +1,21 @@
+//1.4 Leer un numero real 1 e indicar si pertenece al intervalo de (0 a 10)
+#include <stdio.h>
+
+#define LIM_INF 0
+#define LIM_SUP 10
+
+int main() {
+    float x;
+
+    printf("Ingrese un numero real x: ");
+    scanf("%f", &x);
+
+    if (x >= LIM_INF && x <= LIM_SUP) {
+        printf("%.2f pertenece a [0, 10]\n", x);
+    } else {
+        printf("%.2f no pertenece a [0, 10]\n", x);
+    }
+
+    return 0;
+}
+//Creado por Danilo Reyes
